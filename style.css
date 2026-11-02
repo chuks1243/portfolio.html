@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   color: rgb(87, 85, 85);
+}
+textarea{
+    text-align: left;
+    vertical-align: top;
+}
+
+p{
+    color: rgb(87, 85, 85);
+    line-height: 1.5;
+}
+
+
+.p-div1{
+    display: flex;
+    background-color: rgb(163, 168, 226);
+    color: white;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 15px 100px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.p-div2{
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+/*Intro*/
+.intro{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(163, 168, 226); 
+    width: 100%;
+}
+
+.profile{
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    background-color: white;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.profile-img{
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+       
+}
+
+.profile-text >p {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.profile-text>h1 {
+    padding: 10px;
+    font-size:40px;
+}
+
+/*About*/
+
+.about{
+    display: flex;
+    padding: 80px 120px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: white;
+}
+
+.about-text{
+    width: 500px;
+}
+
+.about-text>h1{
+    padding: 10px 5px;
+    
+}
+
+.about-text>p{
+    padding: 5px;
+}
+
+.about-img{
+    width: 400px;
+    height: auto;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* Services*/
+.services{
+    background-color: whitesmoke;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.services-box{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.services-box>div{
+    background-color: white;
+    padding: 20px;
+    border-top: 5px solid  rgb(163, 168, 226);;
+    width: 25%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    font-size: 20px;
+    z-index: 1;
+
+}
+
+.services-box>p{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: start;
+}
+
+.services-box>div:hover{
+    background-color: rgb(163, 168, 226);
+    color: white;
+    border-color:rgb(54, 54, 54);
+    transform: translateY(-5px);
+
+}
+
+.services-box>div:hover h2{
+    color: white;
+}
+.services-box>div:hover p{
+    color: white;
+}
+
+/* project*/
+
+.projects{
+    background-color: white;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.projects-box{
+    display: flex;
+    justify-content: center;
+}
+
+.projects-box>div{
+  background-color: whitesmoke;
+    padding: 40px;
+    border-top: 3px solid  rgb(163, 168, 226);;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    font-size: 20px;
+    margin: 40px;
+}
+
+/*Contact*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: whitesmoke;
+
+}
+
+.contact-txt{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+    
+}
+
+.info{
+    display: flex;
+    gap: 100px;
+    padding: 50px 10px;
+    justify-content: center;
+}
+.info> div{
+    display: flex;
+}
+
+.info> div >img{
+    width: 20px;
+}
+
+.inputs{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.input1> input{
+    padding: 15px;
+    border: 2px  rgb(163, 168, 226) solid;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.input2> input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.input2>textarea {
+    width: 300px;
+    padding: 5px;
+    height: 170px;
+    background-color: white;
+    border: 2px  rgb(163, 168, 226) solid;
+    border-radius: 10px;
+    
+}
+
+
+.contact >button{
+    margin: auto;
+    width: 20%;
+    padding: 15px 10px;
+    margin-top: 10px;
+    color: white;
+    background-color:rgb(115, 125, 233) ;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
+
+.contact>button:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+/*Footer*/
+
+footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+   height: 500px;
+   background-color: black;
+   color: white;
+   padding: 20px;
+   align-items: center;
+
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.reach-me>h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.reach-me>div{
+    display: flex;
+    flex-direction: row;
+}
+
+.reach-me>div>input{
+    padding: 15px 70px;
+    border: none;
+    outline: none;
+    
+}
+
+.reach-me>div>button{
+    background-color: rgb(190, 132, 245);
+    padding: 15px 20px;
+    color: white;
+    
+    border: none;
+}
+
+
